@@ -1,8 +1,28 @@
-.card-image {
-  border-radius: 25px; 
-   
+.card-container { 
+  padding: 20px;
+}
+
+.card-image { 
+  width: 186px;
+  height: 150px;
+  border-radius: 3px; 
+}
+
+.card-text {
+  font-family: Helvetica;
+  float: right;
+  width: 280px;
 }
 
 .card-category {
   text-transform: uppercase;
+  font-size: 14px;
+  color: #bbb;
+  padding: 0; 
+}
+
+.post-title a {
+  padding: 0; 
+  font-size: 26px;
+  text-decoration: none;
 }
